@@ -1,0 +1,206 @@
+\documentclass[UTF8]{article}
+\usepackage{CTEX}
+\usepackage{colortbl}
+\usepackage{pifont}
+\usepackage{fancyhdr}
+\usepackage{extramarks}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usepackage[plain]{algorithm}
+\usepackage{algpseudocode}
+\usepackage{listings}
+\usepackage{gensymb}
+\usepackage{diagbox}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+\lstset{ %
+	backgroundcolor=\color{white},      % choose the background color
+	basicstyle=\footnotesize\ttfamily,  % size of fonts used for the code
+	columns=fullflexible,
+	tabsize=4,
+	breaklines=true,               % automatic line breaking only at whitespace
+	captionpos=b,                  % sets the caption-position to bottom
+	commentstyle=\color{mygreen},  % comment style
+	escapeinside={\%*}{*)},        % if you want to add LaTeX within your code
+	keywordstyle=\color{blue},     % keyword style
+	stringstyle=\color{mymauve}\ttfamily,  % string literal style
+	frame=single,
+	rulesepcolor=\color{red!20!green!20!blue!20},
+	% identifierstyle=\color{red},
+	language=python,
+}
+
+\usetikzlibrary{automata,positioning}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+%
+% Basic Document Settings
+%
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\linespread{1.1}
+
+\pagestyle{fancy}
+\chead{\hmwkClass}
+\rhead{ \hmwkAuthorName }
+\lhead{}
+\lfoot{
+	\lastxmark
+	\includegraphics[scale=0.3]{1.png}
+}
+\cfoot{ }
+\rfoot{\thepage}
+
+\renewcommand\headrulewidth{0.4pt}
+\renewcommand\footrulewidth{0.4pt}
+
+\setlength\parindent{0pt}
+
+%
+% Create Problem Sections
+%
+
+	
+
+
+
+%
+% Homework Details
+%   - Title
+%   - Due date
+%   - Class
+%   - Section/Time
+%   - Instructor
+%   - Author
+%
+\newcommand{\hmwkTitle}{}
+\newcommand{\hmwkDueDate}{}
+\newcommand{\hmwkClass}{Investigation report for Blockchain}
+\newcommand{\hmwkClassTime}{2021/11/08}
+\newcommand{\hmwkClassInstructor}{}
+
+\newcommand{\hmwkAuthorName}{Quan ZHANG}
+%
+% Title Page
+%
+
+\title{
+    \vspace{0.1in}
+     \textmd{\textbf{\hmwkClass}}\\ 
+    \vspace{0.1in}\large{\textit{\hmwkClassTime}}    
+    \vspace{1.5in}
+    \begin{figure}[H]
+    	\centering
+	    \includegraphics[width=1.5in]{1.png}
+    \end{figure}          
+ 		\vspace{3in}
+ 		\textmd{\textbf{\hmwkAuthorName}}\\
+		\vspace{0.5in}
+}
+
+
+
+
+\date{}
+
+\renewcommand{\part}[1]{\textbf{\large Part \Alph{partCounter}}\stepcounter{partCounter}\\}
+
+%
+% Various Helper Commands
+%
+
+% Useful for algorithms
+\newcommand{\alg}[1]{\textsc{\bfseries \footnotesize #1}}
+
+% For derivatives
+\newcommand{\deriv}[1]{\frac{\mathrm{d}}{\mathrm{d}x} (#1)}
+
+% For partial derivatives
+\newcommand{\pderiv}[2]{\frac{\partial}{\partial #1} (#2)}
+
+% Integral dx
+\newcommand{\dx}{\mathrm{d}x}
+
+% Alias for the Solution section header
+\newcommand{\solution}{\textbf{\large Solution}}
+
+% Probability commands: Expectation, Variance, Covariance, Bias
+\newcommand{\E}{\mathrm{E}}
+\newcommand{\Var}{\mathrm{Var}}
+\newcommand{\Cov}{\mathrm{Cov}}
+\newcommand{\Bias}{\mathrm{Bias}}
+\renewcommand{\figurename}{Fig.} %重定义编号前缀词
+\begin{document}
+
+\maketitle
+\pagebreak
+\newpage
+
+
+
+
+
+\begin{center}
+	\listoffigures
+\end{center}
+\pagebreak
+
+
+\begin{center}
+	\listoftables
+\end{center}
+\pagebreak
+
+
+
+
+\tableofcontents
+
+
+\pagebreak
+\section{随时 simple working theory}
+随时
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.6\linewidth]{1}
+	\caption{Data structure of Blockchain}
+\end{figure}
+
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+	\hline 
+	Number of blockchain patent applications& Number of companies \\ 
+	\hline 
+	More then 1000& 3 \\ 
+	\hline 
+	100-999&27  \\ 
+	\hline 
+	10-99& 237 \\ 
+	\hline 
+	1-9& 4119 \\ 
+	\hline 
+\end{tabular} 
+\caption{Distribution of the number of blockchain patent applications in China}
+\end{table}
+
+
+
+
+
+
+
+
+\end{document}
